@@ -65,7 +65,7 @@ getMoviesFromApiAsync() {
       <h2>
         {this.state.results.message}
       </h2>;
-            <button onClick={() => this.callApi()}>
+            <button class="btnapi" onClick={() => this.callApi()}>
         Click here to call API
       </button>
     </div>;
