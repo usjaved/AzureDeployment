@@ -23,9 +23,13 @@ jobs:
           name: NPM Test
           command: npm test -- --coverage
           
+      - run:
+          name: NPM build
+          command: npm run build 
+          
       - store_artifacts:
           path: ~/my-app/build
-          destination: coverage
+          destination: build
 
       # Deploy production
       - deploy:
