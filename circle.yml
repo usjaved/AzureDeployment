@@ -29,5 +29,5 @@ jobs:
 
       # Deploy production
       - deploy:
-          command: ./scripts/publish.sh production;
+          command: ./scripts/publish.sh;
             

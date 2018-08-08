@@ -1,8 +1,8 @@
 #!/bin/bash
 echo "Running"
-git config --global user.email "us.javed@outlook.com"
-git config --global user.name "usjaved"
-
-git checkout "master"
+git add .
+git commit -m 'changes from bash shell script'
+git push https://usjaved@github.com/usjaved/AzureDeployment.git
 git merge devbranch
-git push https://github.com/usjaved/AzureDeployment.git
+git commit -m 'merged from bash script'
+git push https://usjaved@github.com/usjaved/AzureDeployment.git
