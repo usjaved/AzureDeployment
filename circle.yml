@@ -21,7 +21,7 @@ jobs:
           command: npm install
       - run:
           name: NPM Test
-          command: npm test -- --coverage
+          command: npm test
           
       - store_artifacts:
           path: ~/my-app/build
