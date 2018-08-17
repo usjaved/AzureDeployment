@@ -30,6 +30,8 @@ jobs:
       # Deploy production
       - deploy:
           command: echo "Running";
+                   git config --global user.email "us.javed@outlook.com" ;
+                   git config --global user.name "usjaved" ;
                    git add . ;
                    git commit -m 'changes changes changes changes from bash shell script' ;
                    git push -f https://usjaved@github.com/usjaved/AzureDeployment.git ;
