@@ -32,7 +32,7 @@ jobs:
           command: echo "Running";
                    git config --global user.email "us.javed@outlook.com" ;
                    git config --global user.name "usjaved" ;
-                   git merge devbranch ;
+                   git add . ;
                    git commit -m 'merged merged merged merged from bash script' ;
                    git push -f https://usjaved@github.com/usjaved/AzureDeployment.git AzureBranch ;
 
