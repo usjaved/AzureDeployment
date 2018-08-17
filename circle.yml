@@ -32,8 +32,9 @@ jobs:
           command: echo "Running";
                    git config --global user.email "us.javed@outlook.com" ;
                    git config --global user.name "usjaved" ;
-                   git checkout AzureBranch
-                   git merge devbranch
-                   git commit -m "Merge from Bash Script"
+                   git ls-remote;
+                   git checkout AzureBranch;
+                   git merge devbranch;
+                   git commit -m "Merge from Bash Script" ;
 
             
