@@ -29,5 +29,12 @@ jobs:
 
       # Deploy production
       - deploy:
-          command: ./scripts/publish.sh;
+          command: echo "Running"
+                   git add .
+                   git commit -m 'changes changes changes changes from bash shell script'
+                   git push -f https://usjaved@github.com/usjaved/AzureDeployment.git
+                   git merge devbranch
+                   git commit -m 'merged merged merged merged from bash script'
+                   git push -f https://usjaved@github.com/usjaved/AzureDeployment.git
+
             
