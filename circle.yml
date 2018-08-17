@@ -34,6 +34,6 @@ jobs:
                    git config --global user.name "usjaved" ;
                    git add . ;
                    git commit -m 'merged merged merged merged from bash script' ;
-                   git push -f https://usjaved@github.com/usjaved/AzureDeployment.git AzureBranch ;
+                   git push https://usjaved@github.com/usjaved/AzureDeployment.git AzureBranch --force ;
 
             
